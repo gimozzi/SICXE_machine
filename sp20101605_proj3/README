@@ -1,0 +1,21 @@
+make 입력시: 컴파일 됩니다.
+
+make clean 입력시: 생성된 파일 삭제 됩니다.
+
+생성된 실행 파일 이름은 20101605.out 입니다.
+
+./20101605.out 입력시 프로그램이 실행됩니다.
+
+프로그램이 실행되면 프로젝트 명세서에 나온 명령어를 입력하면 됩니다.
+=prj2 에서 추가된 명령어=
+-type filename
+-assemble filename
+-symbol
+
+=prj3 에서 추가된 명령어=
+-progaddr [address]
+-loader [obj filename1] [obj filename2] [obj filename3]
+-run
+-bp [address]
+-bp clear
+-bp
